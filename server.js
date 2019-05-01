@@ -32,7 +32,7 @@ else {
 
 var StudentModel = require('./model/student.js')(sequelize, Sequelize)
 
-// App configuration
+// App configurationa
 var app = express()
 
 app.use(express.static(path.join(__dirname, 'student-client', 'dist')))
